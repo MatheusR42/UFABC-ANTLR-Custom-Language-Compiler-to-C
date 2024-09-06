@@ -70,7 +70,7 @@ return 0;
 ### 1. Instale o ANTLR:
 https://github.com/antlr/antlr4/blob/master/doc/getting-started.md#installation
 
-## 2. Altere o arquivo `CustomLang_input.customlang`:
+### 2. Altere o arquivo `CustomLang_input.customlang`:
 
 Exemplo:
 ```
@@ -89,7 +89,7 @@ WRITE("Resultado: ");
 WRITE("a + b * c = ", d);
 ```
 
-## 3. Execute o compilador para a linguagem:
+### 3. Execute o compilador para a linguagem:
 ```
 java Compiler CustomLang_input.customlang
 ```
@@ -122,12 +122,12 @@ return 0;
 }
 ```
 
-## 4. Compile e execute o código gerado:
+### 4. Compile e execute o código gerado:
 ```
 gcc output.c -o output && ./output
 ```
 
-## 5. Resultado do exemplo:
+### 5. Resultado do exemplo:
 
 ```
 Digite o valor de A: 1
