@@ -16,12 +16,12 @@ Este repositório contém o código de um compilador feito para a disciplina de 
 DEF a;
 DEF b;
 DEF c <- 2.0;
-WRITE("Digite o valor de A: ");
+WRITE("Digite o valor de a: ");
 READ(a);
 WRITE("Digite o valor de b: ");
 READ(b);
 
-WRITE("C está predefinido com valor: ", c);
+WRITE("O valor de c é: ", c);
 
 DEF d <- a + b * c;
 WRITE("Resultado: ");
@@ -51,7 +51,6 @@ if (scanf("%lf", &b) != 1) {
 printf("C está predefinido com valor: ""%lf\n", c);
 double d = a + b * c;
 printf("Resultado: ");
-printf("");
 printf("a + b * c = ""%lf\n", d);
 return 0;
 }
@@ -77,12 +76,12 @@ Exemplo:
 DEF a;
 DEF b;
 DEF c <- 2.0;
-WRITE("Digite o valor de A: ");
+WRITE("Digite o valor de a: ");
 READ(a);
 WRITE("Digite o valor de b: ");
 READ(b);
 
-WRITE("C está predefinido com valor: ", c);
+WRITE("O valor de c é: ", c);
 
 DEF d <- a + b * c;
 WRITE("Resultado: ");
@@ -116,7 +115,6 @@ if (scanf("%lf", &b) != 1) {
 printf("C está predefinido com valor: ""%lf\n", c);
 double d = a + b * c;
 printf("Resultado: ");
-printf("");
 printf("a + b * c = ""%lf\n", d);
 return 0;
 }
