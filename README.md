@@ -38,7 +38,7 @@ int main() {
 double a;
 double b;
 double c = 2.0;
-printf("Digite o valor de A: ");
+printf("Digite o valor de a: ");
 if (scanf("%lf", &a) != 1) {
     fprintf(stderr, "Error: Invalid input. Expected a decimal number.\n");
     exit(1);
@@ -48,7 +48,7 @@ if (scanf("%lf", &b) != 1) {
     fprintf(stderr, "Error: Invalid input. Expected a decimal number.\n");
     exit(1);
 }
-printf("C está predefinido com valor: ""%lf\n", c);
+printf("O valor de c é: ""%lf\n", c);
 double d = a + b * c;
 printf("Resultado: ");
 printf("a + b * c = ""%lf\n", d);
@@ -102,7 +102,7 @@ int main() {
 double a;
 double b;
 double c = 2.0;
-printf("Digite o valor de A: ");
+printf("Digite o valor de a: ");
 if (scanf("%lf", &a) != 1) {
     fprintf(stderr, "Error: Invalid input. Expected a decimal number.\n");
     exit(1);
@@ -112,7 +112,7 @@ if (scanf("%lf", &b) != 1) {
     fprintf(stderr, "Error: Invalid input. Expected a decimal number.\n");
     exit(1);
 }
-printf("C está predefinido com valor: ""%lf\n", c);
+printf("O valor de c é: ""%lf\n", c);
 double d = a + b * c;
 printf("Resultado: ");
 printf("a + b * c = ""%lf\n", d);
@@ -128,8 +128,8 @@ gcc output.c -o output && ./output
 ### 5. Resultado do exemplo:
 
 ```
-Digite o valor de A: 1
+Digite o valor de a: 1
 Digite o valor de b: 3
-C está predefinido com valor: 2.000000
+O valor de c é: 2.000000
 Resultado: a + b * c = 7.000000
 ```
